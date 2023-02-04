@@ -157,12 +157,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/curtana/proprietary/vendor/etc/camera/model_back.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/camera/model_back.dlc \
     vendor/xiaomi/curtana/proprietary/vendor/etc/camera/model_front.dlc:$(TARGET_COPY_OUT_VENDOR)/etc/camera/model_front.dlc \
     vendor/xiaomi/curtana/proprietary/vendor/etc/camera/sceneDetection.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sceneDetection.xml \
-    vendor/xiaomi/curtana/proprietary/vendor/etc/camera/vidhance_calibration:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vidhance_calibration \
     vendor/xiaomi/curtana/proprietary/vendor/etc/camera/vidhance_calibration_gc8034:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vidhance_calibration_gc8034 \
     vendor/xiaomi/curtana/proprietary/vendor/etc/camera/vidhance_calibration_imx582:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vidhance_calibration_imx582 \
     vendor/xiaomi/curtana/proprietary/vendor/etc/camera/vidhance_calibration_ov8856:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vidhance_calibration_ov8856 \
     vendor/xiaomi/curtana/proprietary/vendor/etc/camera/vidhance_calibration_s5kgm2:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vidhance_calibration_s5kgm2 \
     vendor/xiaomi/curtana/proprietary/vendor/etc/camera/vidhance_calibration_s5kgw1:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vidhance_calibration_s5kgw1 \
+    vendor/xiaomi/curtana/proprietary/vendor/etc/camera/vidhance_calibration:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vidhance_calibration \
     vendor/xiaomi/curtana/proprietary/vendor/etc/camera/watermark_font_2300_3199.dat:$(TARGET_COPY_OUT_VENDOR)/etc/camera/watermark_font_2300_3199.dat \
     vendor/xiaomi/curtana/proprietary/vendor/etc/charger_fstab.qti:$(TARGET_COPY_OUT_VENDOR)/etc/charger_fstab.qti \
     vendor/xiaomi/curtana/proprietary/vendor/etc/cne/mwqem.conf:$(TARGET_COPY_OUT_VENDOR)/etc/cne/mwqem.conf \
@@ -484,7 +484,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/curtana/proprietary/vendor/lib64/camera/com.qti.tuned.sunny_ov16a1q.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.sunny_ov16a1q.bin \
     vendor/xiaomi/curtana/proprietary/vendor/lib64/camera/com.qti.tuned.sunny_ov2180.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.sunny_ov2180.bin \
     vendor/xiaomi/curtana/proprietary/vendor/lib64/camera/com.qti.tuned.sunny_s5k5e9.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.sunny_s5k5e9.bin \
-    vendor/xiaomi/curtana/proprietary/vendor/lib64/camera/com.qti.tuned.sunny_s5kgm2.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.sunny_s5kgm2.bin \
     vendor/xiaomi/curtana/proprietary/vendor/lib64/camera/components/com.almalence.node.sr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.almalence.node.sr.so \
     vendor/xiaomi/curtana/proprietary/vendor/lib64/camera/components/com.altek.node.depurple.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.altek.node.depurple.so \
     vendor/xiaomi/curtana/proprietary/vendor/lib64/camera/components/com.altek.node.distortioncorrection.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.altek.node.distortioncorrection.so \
